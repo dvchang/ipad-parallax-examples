@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B71693115850787001FFAC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B71693015850787001FFAC7 /* UIKit.framework */; };
+		6B71693315850787001FFAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B71693215850787001FFAC7 /* Foundation.framework */; };
+		6B71693515850787001FFAC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B71693415850787001FFAC7 /* CoreGraphics.framework */; };
+		6B71693B15850787001FFAC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B71693915850787001FFAC7 /* InfoPlist.strings */; };
+		6B71693D15850787001FFAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B71693C15850787001FFAC7 /* main.m */; };
+		6B71694115850787001FFAC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B71694015850787001FFAC7 /* AppDelegate.m */; };
+		6B71694F15850788001FFAC7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B71694E15850788001FFAC7 /* SenTestingKit.framework */; };
+		6B71695015850788001FFAC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B71693015850787001FFAC7 /* UIKit.framework */; };
+		6B71695115850788001FFAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B71693215850787001FFAC7 /* Foundation.framework */; };
+		6B71695915850788001FFAC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B71695715850788001FFAC7 /* InfoPlist.strings */; };
+		6B71695C15850788001FFAC7 /* BasicThreeLayersParallaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B71695B15850788001FFAC7 /* BasicThreeLayersParallaxTests.m */; };
+		6B71696D15850908001FFAC7 /* SetParametersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B71696B15850908001FFAC7 /* SetParametersViewController.m */; };
+		6B71696E15850908001FFAC7 /* SetParametersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B71696C15850908001FFAC7 /* SetParametersViewController.xib */; };
+		6B71697115850F34001FFAC7 /* BasicParallaxScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B71697015850F34001FFAC7 /* BasicParallaxScrollViewController.m */; };
+		6B716982158514A9001FFAC7 /* beachppl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B71697F158514A9001FFAC7 /* beachppl.jpeg */; };
+		6B716983158514A9001FFAC7 /* cloud.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B716980158514A9001FFAC7 /* cloud.jpeg */; };
+		6B716984158514A9001FFAC7 /* emptybeach.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B716981158514A9001FFAC7 /* emptybeach.jpeg */; };
+		6B71698915852916001FFAC7 /* emptybeachBig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B71698815852916001FFAC7 /* emptybeachBig.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B71695215850788001FFAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B71692315850787001FFAC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B71692B15850787001FFAC7;
+			remoteInfo = BasicThreeLayersParallax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B71692C15850787001FFAC7 /* BasicThreeLayersParallax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicThreeLayersParallax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B71693015850787001FFAC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B71693215850787001FFAC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B71693415850787001FFAC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B71693815850787001FFAC7 /* BasicThreeLayersParallax-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicThreeLayersParallax-Info.plist"; sourceTree = "<group>"; };
+		6B71693A15850787001FFAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B71693C15850787001FFAC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B71693E15850787001FFAC7 /* BasicThreeLayersParallax-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicThreeLayersParallax-Prefix.pch"; sourceTree = "<group>"; };
+		6B71693F15850787001FFAC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B71694015850787001FFAC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B71694D15850788001FFAC7 /* BasicThreeLayersParallaxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicThreeLayersParallaxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B71694E15850788001FFAC7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6B71695615850788001FFAC7 /* BasicThreeLayersParallaxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicThreeLayersParallaxTests-Info.plist"; sourceTree = "<group>"; };
+		6B71695815850788001FFAC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B71695A15850788001FFAC7 /* BasicThreeLayersParallaxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicThreeLayersParallaxTests.h; sourceTree = "<group>"; };
+		6B71695B15850788001FFAC7 /* BasicThreeLayersParallaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicThreeLayersParallaxTests.m; sourceTree = "<group>"; };
+		6B71696A15850908001FFAC7 /* SetParametersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetParametersViewController.h; sourceTree = "<group>"; };
+		6B71696B15850908001FFAC7 /* SetParametersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetParametersViewController.m; sourceTree = "<group>"; };
+		6B71696C15850908001FFAC7 /* SetParametersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetParametersViewController.xib; sourceTree = "<group>"; };
+		6B71696F15850F34001FFAC7 /* BasicParallaxScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicParallaxScrollViewController.h; sourceTree = "<group>"; };
+		6B71697015850F34001FFAC7 /* BasicParallaxScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicParallaxScrollViewController.m; sourceTree = "<group>"; };
+		6B71697F158514A9001FFAC7 /* beachppl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beachppl.jpeg; sourceTree = "<group>"; };
+		6B716980158514A9001FFAC7 /* cloud.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud.jpeg; sourceTree = "<group>"; };
+		6B716981158514A9001FFAC7 /* emptybeach.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptybeach.jpeg; sourceTree = "<group>"; };
+		6B71698815852916001FFAC7 /* emptybeachBig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptybeachBig.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B71692915850787001FFAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B71693115850787001FFAC7 /* UIKit.framework in Frameworks */,
+				6B71693315850787001FFAC7 /* Foundation.framework in Frameworks */,
+				6B71693515850787001FFAC7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B71694915850788001FFAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B71694F15850788001FFAC7 /* SenTestingKit.framework in Frameworks */,
+				6B71695015850788001FFAC7 /* UIKit.framework in Frameworks */,
+				6B71695115850788001FFAC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B71692115850787001FFAC7 = {
+			isa = PBXGroup;
+			children = (
+				6B71693615850787001FFAC7 /* BasicThreeLayersParallax */,
+				6B71695415850788001FFAC7 /* BasicThreeLayersParallaxTests */,
+				6B71692F15850787001FFAC7 /* Frameworks */,
+				6B71692D15850787001FFAC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B71692D15850787001FFAC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B71692C15850787001FFAC7 /* BasicThreeLayersParallax.app */,
+				6B71694D15850788001FFAC7 /* BasicThreeLayersParallaxTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B71692F15850787001FFAC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B71693015850787001FFAC7 /* UIKit.framework */,
+				6B71693215850787001FFAC7 /* Foundation.framework */,
+				6B71693415850787001FFAC7 /* CoreGraphics.framework */,
+				6B71694E15850788001FFAC7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B71693615850787001FFAC7 /* BasicThreeLayersParallax */ = {
+			isa = PBXGroup;
+			children = (
+				6B71697E158514A9001FFAC7 /* Resources */,
+				6B71693F15850787001FFAC7 /* AppDelegate.h */,
+				6B71694015850787001FFAC7 /* AppDelegate.m */,
+				6B71696A15850908001FFAC7 /* SetParametersViewController.h */,
+				6B71696B15850908001FFAC7 /* SetParametersViewController.m */,
+				6B71696C15850908001FFAC7 /* SetParametersViewController.xib */,
+				6B71696F15850F34001FFAC7 /* BasicParallaxScrollViewController.h */,
+				6B71697015850F34001FFAC7 /* BasicParallaxScrollViewController.m */,
+				6B71693715850787001FFAC7 /* Supporting Files */,
+			);
+			path = BasicThreeLayersParallax;
+			sourceTree = "<group>";
+		};
+		6B71693715850787001FFAC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B71693815850787001FFAC7 /* BasicThreeLayersParallax-Info.plist */,
+				6B71693915850787001FFAC7 /* InfoPlist.strings */,
+				6B71693C15850787001FFAC7 /* main.m */,
+				6B71693E15850787001FFAC7 /* BasicThreeLayersParallax-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B71695415850788001FFAC7 /* BasicThreeLayersParallaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B71695A15850788001FFAC7 /* BasicThreeLayersParallaxTests.h */,
+				6B71695B15850788001FFAC7 /* BasicThreeLayersParallaxTests.m */,
+				6B71695515850788001FFAC7 /* Supporting Files */,
+			);
+			path = BasicThreeLayersParallaxTests;
+			sourceTree = "<group>";
+		};
+		6B71695515850788001FFAC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B71695615850788001FFAC7 /* BasicThreeLayersParallaxTests-Info.plist */,
+				6B71695715850788001FFAC7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B71697E158514A9001FFAC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B71698815852916001FFAC7 /* emptybeachBig.jpg */,
+				6B71697F158514A9001FFAC7 /* beachppl.jpeg */,
+				6B716980158514A9001FFAC7 /* cloud.jpeg */,
+				6B716981158514A9001FFAC7 /* emptybeach.jpeg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B71692B15850787001FFAC7 /* BasicThreeLayersParallax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B71695F15850788001FFAC7 /* Build configuration list for PBXNativeTarget "BasicThreeLayersParallax" */;
+			buildPhases = (
+				6B71692815850787001FFAC7 /* Sources */,
+				6B71692915850787001FFAC7 /* Frameworks */,
+				6B71692A15850787001FFAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicThreeLayersParallax;
+			productName = BasicThreeLayersParallax;
+			productReference = 6B71692C15850787001FFAC7 /* BasicThreeLayersParallax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B71694C15850788001FFAC7 /* BasicThreeLayersParallaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B71696215850788001FFAC7 /* Build configuration list for PBXNativeTarget "BasicThreeLayersParallaxTests" */;
+			buildPhases = (
+				6B71694815850788001FFAC7 /* Sources */,
+				6B71694915850788001FFAC7 /* Frameworks */,
+				6B71694A15850788001FFAC7 /* Resources */,
+				6B71694B15850788001FFAC7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B71695315850788001FFAC7 /* PBXTargetDependency */,
+			);
+			name = BasicThreeLayersParallaxTests;
+			productName = BasicThreeLayersParallaxTests;
+			productReference = 6B71694D15850788001FFAC7 /* BasicThreeLayersParallaxTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B71692315850787001FFAC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6B71692615850787001FFAC7 /* Build configuration list for PBXProject "BasicThreeLayersParallax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B71692115850787001FFAC7;
+			productRefGroup = 6B71692D15850787001FFAC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B71692B15850787001FFAC7 /* BasicThreeLayersParallax */,
+				6B71694C15850788001FFAC7 /* BasicThreeLayersParallaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B71692A15850787001FFAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B71693B15850787001FFAC7 /* InfoPlist.strings in Resources */,
+				6B71696E15850908001FFAC7 /* SetParametersViewController.xib in Resources */,
+				6B716982158514A9001FFAC7 /* beachppl.jpeg in Resources */,
+				6B716983158514A9001FFAC7 /* cloud.jpeg in Resources */,
+				6B716984158514A9001FFAC7 /* emptybeach.jpeg in Resources */,
+				6B71698915852916001FFAC7 /* emptybeachBig.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B71694A15850788001FFAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B71695915850788001FFAC7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B71694B15850788001FFAC7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B71692815850787001FFAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B71693D15850787001FFAC7 /* main.m in Sources */,
+				6B71694115850787001FFAC7 /* AppDelegate.m in Sources */,
+				6B71696D15850908001FFAC7 /* SetParametersViewController.m in Sources */,
+				6B71697115850F34001FFAC7 /* BasicParallaxScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B71694815850788001FFAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B71695C15850788001FFAC7 /* BasicThreeLayersParallaxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B71695315850788001FFAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B71692B15850787001FFAC7 /* BasicThreeLayersParallax */;
+			targetProxy = 6B71695215850788001FFAC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B71693915850787001FFAC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B71693A15850787001FFAC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B71695715850788001FFAC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B71695815850788001FFAC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B71695D15850788001FFAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6B71695E15850788001FFAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B71696015850788001FFAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicThreeLayersParallax/BasicThreeLayersParallax-Prefix.pch";
+				INFOPLIST_FILE = "BasicThreeLayersParallax/BasicThreeLayersParallax-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B71696115850788001FFAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicThreeLayersParallax/BasicThreeLayersParallax-Prefix.pch";
+				INFOPLIST_FILE = "BasicThreeLayersParallax/BasicThreeLayersParallax-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6B71696315850788001FFAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasicThreeLayersParallax.app/BasicThreeLayersParallax";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicThreeLayersParallax/BasicThreeLayersParallax-Prefix.pch";
+				INFOPLIST_FILE = "BasicThreeLayersParallaxTests/BasicThreeLayersParallaxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6B71696415850788001FFAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasicThreeLayersParallax.app/BasicThreeLayersParallax";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicThreeLayersParallax/BasicThreeLayersParallax-Prefix.pch";
+				INFOPLIST_FILE = "BasicThreeLayersParallaxTests/BasicThreeLayersParallaxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B71692615850787001FFAC7 /* Build configuration list for PBXProject "BasicThreeLayersParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B71695D15850788001FFAC7 /* Debug */,
+				6B71695E15850788001FFAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B71695F15850788001FFAC7 /* Build configuration list for PBXNativeTarget "BasicThreeLayersParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B71696015850788001FFAC7 /* Debug */,
+				6B71696115850788001FFAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B71696215850788001FFAC7 /* Build configuration list for PBXNativeTarget "BasicThreeLayersParallaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B71696315850788001FFAC7 /* Debug */,
+				6B71696415850788001FFAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B71692315850787001FFAC7 /* Project object */;
+}
