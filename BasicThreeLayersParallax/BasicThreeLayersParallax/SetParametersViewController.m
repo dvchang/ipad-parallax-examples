@@ -38,6 +38,15 @@
     [firstView addSubview:beachppl];
     beachppl.center = CGPointMake(600, 500);
 
+    UIImageView * beachgirl = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"beachgirl1.jpeg"]];
+    [firstView addSubview:beachgirl];
+    beachgirl.center = CGPointMake(900, 500);
+    
+    UIImageView * beachboy = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"beachboy.jpeg"]];
+    [firstView addSubview:beachboy];
+    beachboy.center = CGPointMake(1600, 500);
+    
+
     secondView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 2000, 700)];
     secondView.backgroundColor=[UIColor clearColor];
     UIImageView * cloud1 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cloud.jpeg"]];
@@ -46,9 +55,9 @@
     
     UIImageView * cloud2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cloud.jpeg"]];
     [secondView addSubview:cloud2];
-    cloud2.center = CGPointMake(550, 200);    
+    cloud2.center = CGPointMake(750, 150);    
 
-    thirdView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 2000, 700)];
+    thirdView = [[UIImageView alloc] initWithFrame:CGRectMake(-100, 0, 2000, 700)];
     UIImageView * background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"emptybeachBig.jpg"]];
     [thirdView addSubview:background];
 }

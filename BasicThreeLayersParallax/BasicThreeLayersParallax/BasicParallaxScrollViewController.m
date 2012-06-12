@@ -30,8 +30,8 @@
 {
     self = [super init];
     if (self) {
-        self.view.backgroundColor = [UIColor clearColor];
-        self.view.opaque = NO;
+        self.view.backgroundColor = [UIColor blackColor];
+     //   self.view.opaque = NO;
         firstView = inputFirstView;
         secondView = inputSecondView;
         thirdlView = inputThirdView;
@@ -45,7 +45,7 @@
         
         //Config scroll view property and set it as transparent
         
-        firstScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 1000, 748)];
+        firstScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 1024, 748)];
         firstScrollView.contentSize = CGSizeMake(2000, 748);
         firstScrollView.backgroundColor = [UIColor clearColor];
         firstScrollView.opaque = NO;

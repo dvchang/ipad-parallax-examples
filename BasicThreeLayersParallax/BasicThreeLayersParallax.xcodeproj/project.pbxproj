@@ -25,6 +25,8 @@
 		6B716983158514A9001FFAC7 /* cloud.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B716980158514A9001FFAC7 /* cloud.jpeg */; };
 		6B716984158514A9001FFAC7 /* emptybeach.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B716981158514A9001FFAC7 /* emptybeach.jpeg */; };
 		6B71698915852916001FFAC7 /* emptybeachBig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B71698815852916001FFAC7 /* emptybeachBig.jpg */; };
+		6BF33E6A1586CCFD00FF6C91 /* beachgirl1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF33E691586CCFD00FF6C91 /* beachgirl1.jpeg */; };
+		6BF33E6D1586CD0700FF6C91 /* beachboy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF33E6C1586CD0700FF6C91 /* beachboy.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		6B716980158514A9001FFAC7 /* cloud.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud.jpeg; sourceTree = "<group>"; };
 		6B716981158514A9001FFAC7 /* emptybeach.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptybeach.jpeg; sourceTree = "<group>"; };
 		6B71698815852916001FFAC7 /* emptybeachBig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptybeachBig.jpg; sourceTree = "<group>"; };
+		6BF33E691586CCFD00FF6C91 /* beachgirl1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beachgirl1.jpeg; sourceTree = "<group>"; };
+		6BF33E6C1586CD0700FF6C91 /* beachboy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beachboy.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 		6B71697E158514A9001FFAC7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6BF33E6C1586CD0700FF6C91 /* beachboy.jpeg */,
+				6BF33E691586CCFD00FF6C91 /* beachgirl1.jpeg */,
 				6B71698815852916001FFAC7 /* emptybeachBig.jpg */,
 				6B71697F158514A9001FFAC7 /* beachppl.jpeg */,
 				6B716980158514A9001FFAC7 /* cloud.jpeg */,
@@ -252,6 +258,8 @@
 				6B716983158514A9001FFAC7 /* cloud.jpeg in Resources */,
 				6B716984158514A9001FFAC7 /* emptybeach.jpeg in Resources */,
 				6B71698915852916001FFAC7 /* emptybeachBig.jpg in Resources */,
+				6BF33E6A1586CCFD00FF6C91 /* beachgirl1.jpeg in Resources */,
+				6BF33E6D1586CD0700FF6C91 /* beachboy.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +461,7 @@
 				6B71696115850788001FFAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B71696215850788001FFAC7 /* Build configuration list for PBXNativeTarget "BasicThreeLayersParallaxTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +470,7 @@
 				6B71696415850788001FFAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
