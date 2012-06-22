@@ -1,0 +1,118 @@
+commit bd59e53842f3f7351d7e031cecf3b11594fa5bab
+Author: dvchang <dvchangyuan@gmail.com>
+Date:   Mon Jun 11 23:35:28 2012 -0700
+
+    update some pictures changes
+
+diff --git a/BasicThreeLayersParallax/BasicThreeLayersParallax.xcodeproj/project.pbxproj b/BasicThreeLayersParallax/BasicThreeLayersParallax.xcodeproj/project.pbxproj
+index 48a150b..cf4d4b7 100644
+--- a/BasicThreeLayersParallax/BasicThreeLayersParallax.xcodeproj/project.pbxproj
++++ b/BasicThreeLayersParallax/BasicThreeLayersParallax.xcodeproj/project.pbxproj
+@@ -25,6 +25,8 @@
+ 		6B716983158514A9001FFAC7 /* cloud.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B716980158514A9001FFAC7 /* cloud.jpeg */; };
+ 		6B716984158514A9001FFAC7 /* emptybeach.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B716981158514A9001FFAC7 /* emptybeach.jpeg */; };
+ 		6B71698915852916001FFAC7 /* emptybeachBig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B71698815852916001FFAC7 /* emptybeachBig.jpg */; };
++		6BF33E6A1586CCFD00FF6C91 /* beachgirl1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF33E691586CCFD00FF6C91 /* beachgirl1.jpeg */; };
++		6BF33E6D1586CD0700FF6C91 /* beachboy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF33E6C1586CD0700FF6C91 /* beachboy.jpeg */; };
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXContainerItemProxy section */
+@@ -63,6 +65,8 @@
+ 		6B716980158514A9001FFAC7 /* cloud.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud.jpeg; sourceTree = "<group>"; };
+ 		6B716981158514A9001FFAC7 /* emptybeach.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptybeach.jpeg; sourceTree = "<group>"; };
+ 		6B71698815852916001FFAC7 /* emptybeachBig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptybeachBig.jpg; sourceTree = "<group>"; };
++		6BF33E691586CCFD00FF6C91 /* beachgirl1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beachgirl1.jpeg; sourceTree = "<group>"; };
++		6BF33E6C1586CD0700FF6C91 /* beachboy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beachboy.jpeg; sourceTree = "<group>"; };
+ /* End PBXFileReference section */
+ 
+ /* Begin PBXFrameworksBuildPhase section */
+@@ -168,6 +172,8 @@
+ 		6B71697E158514A9001FFAC7 /* Resources */ = {
+ 			isa = PBXGroup;
+ 			children = (
++				6BF33E6C1586CD0700FF6C91 /* beachboy.jpeg */,
++				6BF33E691586CCFD00FF6C91 /* beachgirl1.jpeg */,
+ 				6B71698815852916001FFAC7 /* emptybeachBig.jpg */,
+ 				6B71697F158514A9001FFAC7 /* beachppl.jpeg */,
+ 				6B716980158514A9001FFAC7 /* cloud.jpeg */,
+@@ -252,6 +258,8 @@
+ 				6B716983158514A9001FFAC7 /* cloud.jpeg in Resources */,
+ 				6B716984158514A9001FFAC7 /* emptybeach.jpeg in Resources */,
+ 				6B71698915852916001FFAC7 /* emptybeachBig.jpg in Resources */,
++				6BF33E6A1586CCFD00FF6C91 /* beachgirl1.jpeg in Resources */,
++				6BF33E6D1586CD0700FF6C91 /* beachboy.jpeg in Resources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+ 		};
+@@ -453,6 +461,7 @@
+ 				6B71696115850788001FFAC7 /* Release */,
+ 			);
+ 			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Release;
+ 		};
+ 		6B71696215850788001FFAC7 /* Build configuration list for PBXNativeTarget "BasicThreeLayersParallaxTests" */ = {
+ 			isa = XCConfigurationList;
+@@ -461,6 +470,7 @@
+ 				6B71696415850788001FFAC7 /* Release */,
+ 			);
+ 			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Release;
+ 		};
+ /* End XCConfigurationList section */
+ 	};
+diff --git a/BasicThreeLayersParallax/BasicThreeLayersParallax/BasicParallaxScrollViewController.m b/BasicThreeLayersParallax/BasicThreeLayersParallax/BasicParallaxScrollViewController.m
+index 849597f..3bc5f17 100644
+--- a/BasicThreeLayersParallax/BasicThreeLayersParallax/BasicParallaxScrollViewController.m
++++ b/BasicThreeLayersParallax/BasicThreeLayersParallax/BasicParallaxScrollViewController.m
+@@ -30,8 +30,8 @@
+ {
+     self = [super init];
+     if (self) {
+-        self.view.backgroundColor = [UIColor clearColor];
+-        self.view.opaque = NO;
++        self.view.backgroundColor = [UIColor blackColor];
++     //   self.view.opaque = NO;
+         firstView = inputFirstView;
+         secondView = inputSecondView;
+         thirdlView = inputThirdView;
+@@ -45,7 +45,7 @@
+         
+         //Config scroll view property and set it as transparent
+         
+-        firstScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 1000, 748)];
++        firstScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 1024, 748)];
+         firstScrollView.contentSize = CGSizeMake(2000, 748);
+         firstScrollView.backgroundColor = [UIColor clearColor];
+         firstScrollView.opaque = NO;
+diff --git a/BasicThreeLayersParallax/BasicThreeLayersParallax/SetParametersViewController.m b/BasicThreeLayersParallax/BasicThreeLayersParallax/SetParametersViewController.m
+index 807f403..9bcd545 100644
+--- a/BasicThreeLayersParallax/BasicThreeLayersParallax/SetParametersViewController.m
++++ b/BasicThreeLayersParallax/BasicThreeLayersParallax/SetParametersViewController.m
+@@ -38,6 +38,15 @@
+     [firstView addSubview:beachppl];
+     beachppl.center = CGPointMake(600, 500);
+ 
++    UIImageView * beachgirl = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"beachgirl1.jpeg"]];
++    [firstView addSubview:beachgirl];
++    beachgirl.center = CGPointMake(900, 500);
++    
++    UIImageView * beachboy = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"beachboy.jpeg"]];
++    [firstView addSubview:beachboy];
++    beachboy.center = CGPointMake(1600, 500);
++    
++
+     secondView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 2000, 700)];
+     secondView.backgroundColor=[UIColor clearColor];
+     UIImageView * cloud1 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cloud.jpeg"]];
+@@ -46,9 +55,9 @@
+     
+     UIImageView * cloud2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cloud.jpeg"]];
+     [secondView addSubview:cloud2];
+-    cloud2.center = CGPointMake(550, 200);    
++    cloud2.center = CGPointMake(750, 150);    
+ 
+-    thirdView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 2000, 700)];
++    thirdView = [[UIImageView alloc] initWithFrame:CGRectMake(-100, 0, 2000, 700)];
+     UIImageView * background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"emptybeachBig.jpg"]];
+     [thirdView addSubview:background];
+ }
