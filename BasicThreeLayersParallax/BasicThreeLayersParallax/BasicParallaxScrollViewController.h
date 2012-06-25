@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface BasicParallaxScrollViewController : UIViewController<UIScrollViewDelegate>
+{
+    NSArray * charactors;
+    
+}
 
+@property (nonatomic, strong) NSArray * charactors;
 
 
 - (id)initWithFirstLayer:(UIImageView *) inputFirstView SecondLayer:(UIImageView *) inputSecondView WithSecondViewSpeed:(float) inputSecondViewSpeed ThirdLayer:(UIImageView *) inputThirdView WithThirdViewSpeed:(float) inputThirdViewSpeed;

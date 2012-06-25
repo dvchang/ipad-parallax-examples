@@ -21,12 +21,22 @@
 		6B71696D15850908001FFAC7 /* SetParametersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B71696B15850908001FFAC7 /* SetParametersViewController.m */; };
 		6B71696E15850908001FFAC7 /* SetParametersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B71696C15850908001FFAC7 /* SetParametersViewController.xib */; };
 		6B71697115850F34001FFAC7 /* BasicParallaxScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B71697015850F34001FFAC7 /* BasicParallaxScrollViewController.m */; };
-		6B716982158514A9001FFAC7 /* beachppl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B71697F158514A9001FFAC7 /* beachppl.jpeg */; };
-		6B716983158514A9001FFAC7 /* cloud.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B716980158514A9001FFAC7 /* cloud.jpeg */; };
-		6B716984158514A9001FFAC7 /* emptybeach.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B716981158514A9001FFAC7 /* emptybeach.jpeg */; };
-		6B71698915852916001FFAC7 /* emptybeachBig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B71698815852916001FFAC7 /* emptybeachBig.jpg */; };
-		6BF33E6A1586CCFD00FF6C91 /* beachgirl1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF33E691586CCFD00FF6C91 /* beachgirl1.jpeg */; };
-		6BF33E6D1586CD0700FF6C91 /* beachboy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF33E6C1586CD0700FF6C91 /* beachboy.jpeg */; };
+		6B999EF61597E22E00C7D464 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6B999EE81597E22E00C7D464 /* LICENSE */; };
+		6B999EF71597E22E00C7D464 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 6B999EE91597E22E00C7D464 /* README */; };
+		6B999EF81597E22E00C7D464 /* UIImage+AutoLevels.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B999EEB1597E22E00C7D464 /* UIImage+AutoLevels.m */; };
+		6B999EF91597E22E00C7D464 /* UIImage+Brightness.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B999EED1597E22E00C7D464 /* UIImage+Brightness.m */; };
+		6B999EFA1597E22E00C7D464 /* UIImage+Contrast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B999EEF1597E22E00C7D464 /* UIImage+Contrast.m */; };
+		6B999EFB1597E22E00C7D464 /* UIImage+FixRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B999EF11597E22E00C7D464 /* UIImage+FixRotation.m */; };
+		6B999EFC1597E22E00C7D464 /* UIImage+Gaussian.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B999EF31597E22E00C7D464 /* UIImage+Gaussian.m */; };
+		6B999EFD1597E22E00C7D464 /* UIImage+Thumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B999EF51597E22E00C7D464 /* UIImage+Thumbnail.m */; };
+		6B999F061597F2B900C7D464 /* beachboy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B999EFF1597F2B900C7D464 /* beachboy.png */; };
+		6B999F071597F2B900C7D464 /* beachgirl1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B999F001597F2B900C7D464 /* beachgirl1.png */; };
+		6B999F081597F2B900C7D464 /* beachppl.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B999F011597F2B900C7D464 /* beachppl.png */; };
+		6B999F091597F2B900C7D464 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B999F021597F2B900C7D464 /* cloud.png */; };
+		6B999F0A1597F2B900C7D464 /* emptybeachBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B999F031597F2B900C7D464 /* emptybeachBig.png */; };
+		6B999F0B1597F2B900C7D464 /* sands.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B999F041597F2B900C7D464 /* sands.png */; };
+		6B999F0C1597F2B900C7D464 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B999F051597F2B900C7D464 /* sun.png */; };
+		6B999F0E1597F73400C7D464 /* boat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B999F0D1597F73400C7D464 /* boat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +71,28 @@
 		6B71696C15850908001FFAC7 /* SetParametersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetParametersViewController.xib; sourceTree = "<group>"; };
 		6B71696F15850F34001FFAC7 /* BasicParallaxScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicParallaxScrollViewController.h; sourceTree = "<group>"; };
 		6B71697015850F34001FFAC7 /* BasicParallaxScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicParallaxScrollViewController.m; sourceTree = "<group>"; };
-		6B71697F158514A9001FFAC7 /* beachppl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beachppl.jpeg; sourceTree = "<group>"; };
-		6B716980158514A9001FFAC7 /* cloud.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud.jpeg; sourceTree = "<group>"; };
-		6B716981158514A9001FFAC7 /* emptybeach.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptybeach.jpeg; sourceTree = "<group>"; };
-		6B71698815852916001FFAC7 /* emptybeachBig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emptybeachBig.jpg; sourceTree = "<group>"; };
-		6BF33E691586CCFD00FF6C91 /* beachgirl1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beachgirl1.jpeg; sourceTree = "<group>"; };
-		6BF33E6C1586CD0700FF6C91 /* beachboy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beachboy.jpeg; sourceTree = "<group>"; };
+		6B999EE81597E22E00C7D464 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6B999EE91597E22E00C7D464 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		6B999EEA1597E22E00C7D464 /* UIImage+AutoLevels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AutoLevels.h"; sourceTree = "<group>"; };
+		6B999EEB1597E22E00C7D464 /* UIImage+AutoLevels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AutoLevels.m"; sourceTree = "<group>"; };
+		6B999EEC1597E22E00C7D464 /* UIImage+Brightness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Brightness.h"; sourceTree = "<group>"; };
+		6B999EED1597E22E00C7D464 /* UIImage+Brightness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Brightness.m"; sourceTree = "<group>"; };
+		6B999EEE1597E22E00C7D464 /* UIImage+Contrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Contrast.h"; sourceTree = "<group>"; };
+		6B999EEF1597E22E00C7D464 /* UIImage+Contrast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Contrast.m"; sourceTree = "<group>"; };
+		6B999EF01597E22E00C7D464 /* UIImage+FixRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixRotation.h"; sourceTree = "<group>"; };
+		6B999EF11597E22E00C7D464 /* UIImage+FixRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixRotation.m"; sourceTree = "<group>"; };
+		6B999EF21597E22E00C7D464 /* UIImage+Gaussian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gaussian.h"; sourceTree = "<group>"; };
+		6B999EF31597E22E00C7D464 /* UIImage+Gaussian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gaussian.m"; sourceTree = "<group>"; };
+		6B999EF41597E22E00C7D464 /* UIImage+Thumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Thumbnail.h"; sourceTree = "<group>"; };
+		6B999EF51597E22E00C7D464 /* UIImage+Thumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Thumbnail.m"; sourceTree = "<group>"; };
+		6B999EFF1597F2B900C7D464 /* beachboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beachboy.png; sourceTree = "<group>"; };
+		6B999F001597F2B900C7D464 /* beachgirl1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beachgirl1.png; sourceTree = "<group>"; };
+		6B999F011597F2B900C7D464 /* beachppl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beachppl.png; sourceTree = "<group>"; };
+		6B999F021597F2B900C7D464 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		6B999F031597F2B900C7D464 /* emptybeachBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptybeachBig.png; sourceTree = "<group>"; };
+		6B999F041597F2B900C7D464 /* sands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sands.png; sourceTree = "<group>"; };
+		6B999F051597F2B900C7D464 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		6B999F0D1597F73400C7D464 /* boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +152,7 @@
 		6B71693615850787001FFAC7 /* BasicThreeLayersParallax */ = {
 			isa = PBXGroup;
 			children = (
+				6B999EE71597E22E00C7D464 /* UIImageAdjust */,
 				6B71697E158514A9001FFAC7 /* Resources */,
 				6B71693F15850787001FFAC7 /* AppDelegate.h */,
 				6B71694015850787001FFAC7 /* AppDelegate.m */,
@@ -172,14 +199,37 @@
 		6B71697E158514A9001FFAC7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6BF33E6C1586CD0700FF6C91 /* beachboy.jpeg */,
-				6BF33E691586CCFD00FF6C91 /* beachgirl1.jpeg */,
-				6B71698815852916001FFAC7 /* emptybeachBig.jpg */,
-				6B71697F158514A9001FFAC7 /* beachppl.jpeg */,
-				6B716980158514A9001FFAC7 /* cloud.jpeg */,
-				6B716981158514A9001FFAC7 /* emptybeach.jpeg */,
+				6B999F0D1597F73400C7D464 /* boat.png */,
+				6B999EFF1597F2B900C7D464 /* beachboy.png */,
+				6B999F001597F2B900C7D464 /* beachgirl1.png */,
+				6B999F011597F2B900C7D464 /* beachppl.png */,
+				6B999F021597F2B900C7D464 /* cloud.png */,
+				6B999F031597F2B900C7D464 /* emptybeachBig.png */,
+				6B999F041597F2B900C7D464 /* sands.png */,
+				6B999F051597F2B900C7D464 /* sun.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B999EE71597E22E00C7D464 /* UIImageAdjust */ = {
+			isa = PBXGroup;
+			children = (
+				6B999EE81597E22E00C7D464 /* LICENSE */,
+				6B999EE91597E22E00C7D464 /* README */,
+				6B999EEA1597E22E00C7D464 /* UIImage+AutoLevels.h */,
+				6B999EEB1597E22E00C7D464 /* UIImage+AutoLevels.m */,
+				6B999EEC1597E22E00C7D464 /* UIImage+Brightness.h */,
+				6B999EED1597E22E00C7D464 /* UIImage+Brightness.m */,
+				6B999EEE1597E22E00C7D464 /* UIImage+Contrast.h */,
+				6B999EEF1597E22E00C7D464 /* UIImage+Contrast.m */,
+				6B999EF01597E22E00C7D464 /* UIImage+FixRotation.h */,
+				6B999EF11597E22E00C7D464 /* UIImage+FixRotation.m */,
+				6B999EF21597E22E00C7D464 /* UIImage+Gaussian.h */,
+				6B999EF31597E22E00C7D464 /* UIImage+Gaussian.m */,
+				6B999EF41597E22E00C7D464 /* UIImage+Thumbnail.h */,
+				6B999EF51597E22E00C7D464 /* UIImage+Thumbnail.m */,
+			);
+			path = UIImageAdjust;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,12 +304,16 @@
 			files = (
 				6B71693B15850787001FFAC7 /* InfoPlist.strings in Resources */,
 				6B71696E15850908001FFAC7 /* SetParametersViewController.xib in Resources */,
-				6B716982158514A9001FFAC7 /* beachppl.jpeg in Resources */,
-				6B716983158514A9001FFAC7 /* cloud.jpeg in Resources */,
-				6B716984158514A9001FFAC7 /* emptybeach.jpeg in Resources */,
-				6B71698915852916001FFAC7 /* emptybeachBig.jpg in Resources */,
-				6BF33E6A1586CCFD00FF6C91 /* beachgirl1.jpeg in Resources */,
-				6BF33E6D1586CD0700FF6C91 /* beachboy.jpeg in Resources */,
+				6B999EF61597E22E00C7D464 /* LICENSE in Resources */,
+				6B999EF71597E22E00C7D464 /* README in Resources */,
+				6B999F061597F2B900C7D464 /* beachboy.png in Resources */,
+				6B999F071597F2B900C7D464 /* beachgirl1.png in Resources */,
+				6B999F081597F2B900C7D464 /* beachppl.png in Resources */,
+				6B999F091597F2B900C7D464 /* cloud.png in Resources */,
+				6B999F0A1597F2B900C7D464 /* emptybeachBig.png in Resources */,
+				6B999F0B1597F2B900C7D464 /* sands.png in Resources */,
+				6B999F0C1597F2B900C7D464 /* sun.png in Resources */,
+				6B999F0E1597F73400C7D464 /* boat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +352,12 @@
 				6B71694115850787001FFAC7 /* AppDelegate.m in Sources */,
 				6B71696D15850908001FFAC7 /* SetParametersViewController.m in Sources */,
 				6B71697115850F34001FFAC7 /* BasicParallaxScrollViewController.m in Sources */,
+				6B999EF81597E22E00C7D464 /* UIImage+AutoLevels.m in Sources */,
+				6B999EF91597E22E00C7D464 /* UIImage+Brightness.m in Sources */,
+				6B999EFA1597E22E00C7D464 /* UIImage+Contrast.m in Sources */,
+				6B999EFB1597E22E00C7D464 /* UIImage+FixRotation.m in Sources */,
+				6B999EFC1597E22E00C7D464 /* UIImage+Gaussian.m in Sources */,
+				6B999EFD1597E22E00C7D464 /* UIImage+Thumbnail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
